@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stylesandthemes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <!-- This style above gets applied to the entire application -->
+        <!-- There are a lot of suggestions once you put a dot after AppCompat -->
+
+        <!-- The line below shows you can easily change a single activity's theme by applying a different style -->
+        <!-- It is from in the styles.xml and would be what you edit yourself -->
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
+
+<!-- Things to note: -->
+
+<!-- Only one style per view -->
+<!-- For text: you can also specify TextAppearance attribute which is similar to a style -->
+<!-- TextAppearance docs:  https://developer.android.com/reference/android/R.styleable#TextAppearance -->

@@ -1,0 +1,81 @@
+<resources>
+    <!-- https://www.vogella.com/tutorials/AndroidStylesThemes/article.html -->
+
+    <!-- Specify a theme in AndroidManifest.xml  -->
+    <!-- Base application theme, no default action bar. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- These values reference the colors.xml file -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- A lot of components use colorAccent -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+
+        <!-- used for changing toolbar icon colours -->
+        <item name="actionBarPopupTheme">@style/AppTheme.Toolbar</item>
+
+    </style>
+
+    <!-- Change icon colours on toolbar -->
+    <!-- add in your activity's XML toolbar component: android:theme="?attr/actionBarPopupTheme" -->
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="iconTint">@color/colorBackground</item>
+    </style>
+
+    <!-- Change colour of button and its text -->
+    <!-- android:background  is a drawable, so if you change it, it changes its shape -->
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+<!--        <item name="android:background">@android:drawable/star_on</item>&lt;!&ndash; Changes the background shape &ndash;&gt;-->
+<!--        <item name="android:backgroundTint">@color/colorPrimary</item>&lt;!&ndash; Change the background colour &ndash;&gt;-->
+        <item name="android:background">@drawable/anim</item> <!-- Animated background -->
+        <item name="android:textColor">@color/colorAccentText</item>
+        <item name="android:fontFamily">@font/life_savers_bold</item>
+    </style>
+
+    <!-- Override colorButtonNormal value from Base theme -->
+    <style name="AppTheme.Button2" parent="Theme.AppCompat">
+        <item name="android:colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/baloo</item>
+    </style>
+
+    <!-- Change colour of Checkboxes by overriding colorAccent -->
+    <style name="AppTheme.CheckBoxes" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/space_mono</item>
+    </style>
+
+    <style name="AppTheme.Radios" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/colorAccentDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/nova_slim</item>
+        <item name="android:state_checked">@color/colorBackground</item>
+    </style>
+
+    <style name="AppTheme.Toggle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/colorAccentDark</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:progressTint">@color/colorPrimaryDark</item>
+        <item name="android:secondaryProgressTint">@color/colorPrimaryLight</item>
+    </style>
+
+    <!-- Set programatically in onCreate -->
+    <style name="ToolbarFont">
+        <item name="android:fontFamily">@font/amaranth</item>
+        <item name="android:textColor">@color/colorBackground</item>
+    </style>
+
+</resources>
+
+<!-- https://developer.android.com/guide/topics/ui/look-and-feel/themes -->
+<!-- https://stackoverflow.com/questions/17120199/change-circle-color-of-radio-button -->
+<!-- https://stackoverflow.com/questions/5854047/how-to-change-the-color-of-a-checkbox -->
+<!-- https://stackoverflow.com/questions/32671004/how-to-change-the-color-of-a-button -->
+<!-- https://stackoverflow.com/questions/28219178/toolbar-icon-tinting-on-android -->
+<!-- https://stackoverflow.com/questions/46619240/disable-shadow-in-ratingbar -->
+<!-- https://developer.android.com/reference/android/graphics/drawable/AnimationDrawable -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This tool can be useful for playing around with colour schemes and giving you the colour codes -->
+<!-- https://material.io/resources/color/#!/?view.left=0&view.right=0 -->
+
+<resources>
+    <color name="colorPrimary">#725A7A</color>
+    <color name="colorPrimaryLight">#a388ad</color>
+    <color name="colorPrimaryDark">#54395d</color>
+    <color name="colorPrimaryText">#ffffff</color>
+
+    <color name="colorAccent">#FF7582</color>
+    <color name="colorAccentLight">#ffabb3</color>
+    <color name="colorAccentDark">#ff3b4d</color>
+    <color name="colorAccentText">#000000</color>
+
+    <color name="colorBackground">#2A3950</color>
+</resources>

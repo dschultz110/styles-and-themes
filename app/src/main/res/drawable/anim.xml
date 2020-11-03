@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/honk1" android:duration="200" />
+    <item android:drawable="@drawable/honk2" android:duration="200" />
+    <item android:drawable="@drawable/honk3" android:duration="200" />
+    <item android:drawable="@drawable/honk4" android:duration="200" />
+    <item android:drawable="@drawable/honk5" android:duration="200" />
+    <item android:drawable="@drawable/honk6" android:duration="200" />
+    <item android:drawable="@drawable/honk7" android:duration="200" />
+    <item android:drawable="@drawable/honk8" android:duration="200" />
+    <item android:drawable="@drawable/honk9" android:duration="200" />
+    <item android:drawable="@drawable/honk10" android:duration="200" />
+    <item android:drawable="@drawable/honk11" android:duration="200" />
+</animation-list>

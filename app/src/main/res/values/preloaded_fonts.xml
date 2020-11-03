@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amaranth</item>
+        <item>@font/arya</item>
+        <item>@font/baloo</item>
+        <item>@font/benchnine_light</item>
+        <item>@font/bonbon</item>
+        <item>@font/life_savers_bold</item>
+        <item>@font/nova_slim</item>
+        <item>@font/space_mono</item>
+    </array>
+</resources>
